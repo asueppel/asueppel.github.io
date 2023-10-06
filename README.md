@@ -1,5 +1,11 @@
 # asueppel.github.io
 
+Week 06 Status Update
+1. This past week I continued to work through the educational material I have found online. This primarily consisted of getting familiar with API calls to IEX cloud, where I will be pulling stock data from to use within my trading algorithms. IEX is stock exchange founded in 2012. I will likely be using the free "sandbox" version of the IEX cloud, as they charge for actual data. For the purpose of this project, dated or random data will be okay.
+2. This next week will be focused on becoming more familiar with API calls to IEX, as mastering these calls is integral to the overall success of the project. I will also begin building my pandas data frame to store the information from the numerous API calls I will be required to do.
+3. I have had issues importing some libraries (e.g., xlsxwriter) that I do not need right now but will likely need as I proceed deeper into this project. At some point over the next few weeks, I will need to spend time getting all of these libraries and dependencies setup on my local machine.
+4. This past week, I had a clearer focus on what aspect of the learning process I want to focus (API calls). This helped me to use my time more efficiently. I will continue to structure my weeks like this, with a certain educational area as the focus of the week, until I have all the necessary tools in place.
+
 Week 05 Status Update
 1. I continued to work my way through the educational materials I found for creating a trading algorithm in Python.
 2. Next week I will continue to go through these materials to create the basis of knowledge I need to implement my own algorithm.
