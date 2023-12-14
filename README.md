@@ -72,26 +72,26 @@ https://www.freecodecamp.org/news/how-to-get-started-with-algorithmic-trading-in
 Project Proposal
 Vision Statement: I have worked in finance for my entire working career. Finance has becoming increasing reliant on big data and being able to process the data to gain actionable business insights. My project will focus on building a simple trading algorithm, which will require importing historical data, processing the data, and extracting trading signals from the processed data. This project will develop skills in sourcing and processing data, specifically as it relates to the financial world. <br><br>
 
-Motivation Statement: Beyond just working in finance, I have a particular interest in economics, as it was my original area of study. I am fascinated how prices in the stock market theoretically capture all publicly available information related to that stock. For example, supply chain disruptions or a drop in the price of silicon could potentially have a very meaningful impact on the price movement of Apple stock. While the algorithm I develop will not be advanced enough to quantify and process these types of information, even a simple trading algorithm will expand my knowledge as to how modern algorithmic trading models are designed and applied. <br><br>
+Motivation Statement: Beyond just working in finance, I have a particular interest in economics, as it was my original area of study. I am fascinated how prices in the stock market theoretically capture all publicly available information related to that stock. For example, supply chain disruptions or a drop in the price of silicon could potentially have a very meaningful impact on the price movement of Apple stock. While the algorithm I develop will not be advanced enough to quantify and process these types of information, even a simple trading algorithm will expand my knowledge as to how modern algorithmic trading models are designed and applied.
 
 Specific Goals: Given the limited time allocated to this project (45 hours), my specific and measurable goals are as follows.<br>
-•	Identify a simple algorithm based on either technical analysis (e.g., using stock price and trading volume data) or a select input variables (e.g., high yield interest rates and a chosen stock market index).<br>
-•	Implement the chosen trading strategy in Python.
-•	Be able to import and scrub data from external sources for processing by the implemented algorithm.
-•	Be able to properly setup the Python environment and import the necessary libraries for the algorithm to function and potentially visualize the output.
-•	Output trading signals to act on (trading actions).
-•	Be able to back test the trading strategy from historical data.
+1. Identify a simple algorithm based on either technical analysis (e.g., using stock price and trading volume data) or a select input variables (e.g., high yield interest rates and a chosen stock market index).<br>
+2. Implement the chosen trading strategy in Python.
+3. Be able to import and scrub data from external sources for processing by the implemented algorithm.
+4. Be able to properly setup the Python environment and import the necessary libraries for the algorithm to function and potentially visualize the output.
+5. Output trading signals to act on (trading actions).
+6. Be able to back test the trading strategy from historical data.
 
 Risks:
-•	While I have a finance background, I do not have experience in building a trading algorithm.
-•	I have experience in Python; however, the project may require the use of libraries or aspects of Python I do not have experience with.
-•	It may be difficult to find the data I need to analyze for free.
-•	The data needed for the project may be available but require a lot of cleaning for it to be useful for this project.
+1. While I have a finance background, I do not have experience in building a trading algorithm.
+2. I have experience in Python; however, the project may require the use of libraries or aspects of Python I do not have experience with.
+3. It may be difficult to find the data I need to analyze for free.
+4. The data needed for the project may be available but require a lot of cleaning for it to be useful for this project.
 
 Mitigation Strategy: I did a fair amount of research on developing trading algorithms when choosing a topic for this project. There are a lot of resources in this area, specifically for using Python to create trading algorithms. For access to data, Kaggle has been a tremendous resource for free data that I have used in the past.
 
 
 Project Assessment:
-•	I am able to import and clean the necessary data.
-•	The trading algorithm successfully processes the data and outputs actionable trading signals.
-•	I am able to back test the performance of the algorithm using historical data.
+1. I am able to import and clean the necessary data.
+2. The trading algorithm successfully processes the data and outputs actionable trading signals.
+3. I am able to back test the performance of the algorithm using historical data.
