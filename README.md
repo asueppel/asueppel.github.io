@@ -1,5 +1,47 @@
 # asueppel.github.io
 
+Week 14 Status Update
+1. This past week was focused on creating and populating the dataframe via a loop, so that I did not need to manually enter each S&P 500 stock. Setting up the loop was slightly tedious, as I had to do two API calls each loop, which is a slow process.
+2. This coming week, I will be focused on writing the actual quantitative momentum algorithm.
+3. As I looped through the S&P 500 tickers, I found that certain stocks were not on the index a year ago. This caused an error to be thrown and I had to manually remove those tickers.
+4. This past week, I would only work on the project for bits at a time, which meant when I came back to the project I had to remember where I had left off. This weekend I will set aside a large chunk of time to finish this project.
+
+Week 13 Status Update
+No update
+
+Week 12 Status Update
+1. This past week was spent getting acquainted with the API of the new datasource I will use for stock market data (Polygon). The amount of data available through Polygon is significantly less than through IEX but it will be enough for this project. I also was able to pull the required data into a Pandas data frame for a single stock (AAPL).
+2. This coming week, I will create a loop to automatically loop through the stocks in the S&P 500 and append the needed data into a Pandas data frame.
+3. Fortunately this week did not involve any impediments. I ironed those out last week by finding an alternative data source and getting acquainted with the API.
+4. I have been particularly busy with work and my other class. This coming week, I should be able to focus on this project for significant chunks of time.
+
+Week 11 Status Update
+1. This past week was mostly focused on attempting to troubleshoot access to IEX. I then focused on finding an alternative (Polygon) and familiarizing myself with the API. I was able to successfully pull the closing price for various stocks.
+2. This coming week, I will continue to familiarize myself with the API and update my current code to fit the data structure of Polygon. I will work to consolidate the data into a dataframe for easy manipulation.
+3. Unfortunately, I encountered additional hurdles this week as it relates to my initial data source. IEX removed their "sandbox" mode and access to their real data is price prohibitive. I found an alternative called Polygon, that should give me access to the data I need for free.
+4. This week reinforced the importance of a back up plan. I am once again glad the "sandbox" mode was removed now, rather than at the very end of the semester. Unfortunately, there was not anything I could do about the changes made by IEX but it created a learning opportunity for how to adjust code on the fly.
+
+Week 10 Status Update
+No update
+
+Week 09 Status Update
+1. This week I resolved the API calls and imported the full JSON data into a data frame. This will be used as the basis for data manipulation and analysis moving forward.
+2. Next week I will begin building the actual algorithm to digest the data and produce the signals. I planned to get to that this week but did not get as far as I would have hoped.
+3. The only impediment this week was a time crunch. I did not encounter any technical hurdles, which was refreshing after last week.
+4. This past week reinforced the importance of time management. I would have liked to have gotten farther in building the algorithm. I will need to catchup over the weekend.
+
+Mid-Semester Project Report
+Thus far, I am feeling pretty confident I will be able to build something close to what I initially set out to. I may have to make the trading algorithm simpler than my original idea due to some hurdles along the way. For example, I had to spend a substantial amount of time over the last week reestablishing API calls because a previous API "sandbox mode" was discontinued on 10/17/2023. This set me back a bit but I believe I have found the solution. I also have my environment set up in the way needed, in terms of libraries. With these two items (API and local environment) solved, I should be able to focus the remainder of the semester on learning about various algorithmic trading strategies and tweaking them for my own use.
+
+Week 08 Status Update
+1. This past week was very frustrating. I discovered that the "sandbox mode" I had been using at the beginning of my project to access stock market data has been discontinued. This meant I had to setup an actual account and reconfigure my API calls, instead of making "fake" calls to the sandbox data. However, I got the API calls working again and have added the JSON data to a Pandas DataFrame.
+2. This next week I will do batch API calls, so that I can import data on every stock in the S&P 500, rather than adding stocks information manually. Once the DataFrame is fully populated this way, I will start making calculations for the basic algorithms.
+3. In addition to the discontinued sandbox mode mentioned above, I also spent some time setting up my environment on my local machine. Initially I had been using the CU JupyterLab but ran into some hurdles with libraries. I have my environment setup in a way now that seems to be fully functional for this project.
+4. This past week was really important. There will always be unexpected challenges and this week was a major one. However, I worked through it using IEX's documentation and some other online resources.
+
+Week 07 Status Update
+No update
+
 Week 06 Status Update
 1. This past week I continued to work through the educational material I have found online. This primarily consisted of getting familiar with API calls to IEX cloud, where I will be pulling stock data from to use within my trading algorithms. IEX is stock exchange founded in 2012. I will likely be using the free "sandbox" version of the IEX cloud, as they charge for actual data. For the purpose of this project, dated or random data will be okay.
 2. This next week will be focused on becoming more familiar with API calls to IEX, as mastering these calls is integral to the overall success of the project. I will also begin building my pandas data frame to store the information from the numerous API calls I will be required to do.
