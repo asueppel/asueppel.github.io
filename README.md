@@ -1,5 +1,37 @@
 # asueppel.github.io
 
+# Final Project Report
+Analysis of Specific Goals:
+1. I was able to identify a simple trading algorithm based on various price momentum over varying intervals of time. There were helpful videos to follow along with and guide me through the implementation process.
+2. I successfully implemented the trading strategy in Python. Python was a great language to implement the algorithm in, as it is especially adept at data processing.
+3. The most difficult aspect of the project was the importation of data. The initial source of data (IEX) for stock price information ended up shutting down their sandbox mode. This meant I had to find another data source. I identified a service called Polygon. While they did not offer the breadth of data available through IEX, it provided the information I needed for a cheap price. It took a while to learn a new API standard, but Polygon provides in depth documentation, which helped greatly. Once I had established the API calls, I needed to convert the data into a usable format. I used a pandas DataFrame, which made handle the data very straightforward.
+4. I used Anaconda Navigator, which made importing the necessary libraries very easy. I had no issues with the libraries.
+5. I was able to setup the algorithm so that the last column of the DataFrame provided the recommended number of shares to buy for each stock.
+6. I struggled with this aspect. I was able to setup a simple back testing system. I calculated the recommended buy signals for the period November 2021 to November 2022. I then compared the performance of this recommended portfolio of stocks to the overall average return of stocks in the S&P 500 for the period November 2022 to November 2023. The recommended basket of stocks underperformed the S&P 500 as a whole, which demonstrates why it is so difficult to consistently beat the market. For proper evaluation of the trading strategy, I would need to setup a system to test the recommended portfolio to the overall performance of the S&P 500 over many varying periods of time.
+
+Analysis of Risks:
+1. As the trading algorithm was simple, my finance domain knowledge was more than enough to complete this project.
+2. As stated above, Anaconda Navigator made it extremely easy to import the required libraries for this project.
+3. Finding the required data proved to be more challenging than I expected for the reasons explained above. However, once I identified an alternative data source, importing the data was straightforward.
+4. The data was pulled from a service specifically designed for uses like mine, so there was very little data cleaning required.
+
+Final Project Assessment:
+1. I was able to import and clean the necessary data for use in my trading algorithm.
+2. My trading algorithm provided trading signals in the form of number of shares to buy of each stock in our end basket.
+3. While not robust, I was able to setup a simple back testing system.
+
+Overall, I am pleased with the outcome of my project. There were some hurdles along the way but I was able to overcome them and produce a working trading algorithm. This project sharpened my Python skills, API knowledge, and data processing skills.
+
+GitHub Link: https://github.com/asueppel/CSPB3112_Project
+Relevant Files: https://github.com/asueppel/CSPB3112_Project/blob/main/quantitative_momentum_strategy.ipynb; https://github.com/asueppel/CSPB3112_Project/blob/main/backtesting.ipynb
+
+
+Week 15 Status Update
+1. This past week was spent finalizing the trading algorithm, working out any kinks on the API calls, and creating a simple back testing system to evaluate the performance of the trading algorithm.
+2. N/A
+3. As I looped through the S&P 500 tickers, I found that certain stocks were not on the index a year ago. This caused an error to be thrown and I had to manually remove those tickers. (Same issue as last week)
+4. I was able to set aside quite a bit of time over the last week to finalize everything for this project. I feel pretty good with the final output.
+
 Week 14 Status Update
 1. This past week was focused on creating and populating the dataframe via a loop, so that I did not need to manually enter each S&P 500 stock. Setting up the loop was slightly tedious, as I had to do two API calls each loop, which is a slow process.
 2. This coming week, I will be focused on writing the actual quantitative momentum algorithm.
